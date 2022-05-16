@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+nav>div{
+    /* border: 2px solid red; */
+    padding-right: 100px;
+}
+ul{
+    display: flex;
+align-items: center;
+    gap: 40px;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav>div:last-child{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    display: block;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(102, 173, 217);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
